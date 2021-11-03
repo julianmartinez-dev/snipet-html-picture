@@ -1,0 +1,16 @@
+//-------EN VS.CODE PRESIONAR CTRL+SHIFT+P Y BUSCAR LOS SNIPETS DE HTML--------//
+//---------------AGREGAR LO SIGUIENTE AL FINAL DEL ARCHIVO---------------------//
+
+"imagen": {
+		"prefix": "imagen",
+		"body": [
+			"<picture>",
+			   "\t<source srcset=\"$1.avif\" type=\"image/avif\">",
+			   "\t<source srcset=\"$2.webp\" type=\"image/webp\">",
+			   "\t<img loading=\"lazy\" width=\"200\" height=\"300\" src=\"$3.jpg\" alt=\"$4\">",
+			"</picture>"
+		],
+		"description": "Snipet para la creacion de bloque de imagen en HTML con formato avif,webp o png/jpg repectivamente"
+	}
+  
+  //--------------------------------------------------------------------------//
